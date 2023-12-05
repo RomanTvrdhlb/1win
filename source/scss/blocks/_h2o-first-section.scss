@@ -1,0 +1,23 @@
+.h2o-first-section{
+    position: relative;
+    padding-bottom: clamp(16px, 1.6667vw, 24px);
+    
+    &__box{
+        display: grid;
+        grid-template-columns:0.6fr 1fr;
+        grid-gap: 20px 15px;
+        position: relative;
+
+        @include tablet{
+            grid-template-columns: 1fr;
+
+            .h2o-main-slider{
+                order: 1;
+            }
+
+            .h2o-main-jackpot{
+                order: 2;
+            }
+        }
+    }
+}
