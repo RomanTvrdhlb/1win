@@ -10,16 +10,6 @@
     display: block;
   }
 
-  &-flag{
-    background-image: url(../img/sprite/flag.svg);
-    width: 15px;
-    height: 15px;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 50%;
-  }
-
   &-speed{
     background-image: url(../img/sprite/speed.svg);
     background-position: center center;
